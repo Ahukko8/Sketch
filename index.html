@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Pixel Sketch</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="wrapper">
-            <div class="container">
-                <div class="header">
-                    <h1 class="title">Pixel Sketch</h1>
-                </div>
-            </div>
-        </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pixel Sketch</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Pixel Sketch</h1>
+    <div class="options">
+        <input type="radio" id="eraser" name="color" value="eraser" checked>
+        <label for="eraser">Eraser</label>
+        <input type="radio" id="random" name="color" value="random">
+        <label for="random">Random RGB</label>
+        <input type="radio" id="black" name="color" value="black">
+        <label for="black">Black</label>
+        <button id="resetButton">Reset</button>
+      </div>    <div id="container"></div>
 
 
 
 
-        <script src="script.js" async defer></script>
-    </body>
+
+
+
+
+    <script src="script.js" async defer></script>
+</body>
+
 </html>
